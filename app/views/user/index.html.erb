@@ -1,0 +1,117 @@
+<html>
+
+<head>
+  <title>CuteBank</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="content">
+    <div class="fon-content">
+
+
+
+      <div class="do_balance">
+        <div class="input_balance">
+          <%= form_for :user, :url => {:controller => :user, :action => :index} do |f| %>
+            <% if @user.errors.any? %>
+              <% @user.errors.full_messages.each do |msg| %>
+                <div class= "alertUser ">
+                  <%= msg%>
+                </div>
+              <% end %>
+            <% end %>
+            <p >
+              <%= f.text_field :current_balance, :placeholder => 'Input value:', :class => 'input_monay' %>
+            </p>
+
+            <p >
+              <%= f.submit 'Deposit', :class => 'submit-deposit' %>
+            </p>
+
+            <p >
+              <%= f.submit 'Withdraw', :class => 'submit-withdraw' %>
+            </p>
+
+          <%end%>
+        </div>
+      
+
+
+        <div class="balance">
+        
+        <div class="right_block_balance">
+        <span class="text-balance">Balance:</span><br>
+        <span class="value-balance">$<%=  @user.current_balance%></span>
+        </div>
+
+
+
+        <div class="Latest_operations">
+        <br><span class="latest-operation">Latest operations:</span>
+
+
+        <table>
+          <%if @record !=nil%>
+            <%2.times do |i|%>
+              <%record = @record[@record.count - i - 1 ] %>
+              <tr>
+              <% if record.operation_type == 'Deposit'%>
+              
+              <td><span class="deposit" ><%=record.operation_type%>:</span></td>
+                <td><span class="deposit" >+$<%=record.amount%></span></td>
+                
+                
+                <%else%>
+                
+                <td><span class="withdraw"><%=record.operation_type%>:</span></td>
+                <td><span class="withdraw">-$<%=record.amount%></span></td>
+                <%end%>
+                
+              </tr>    
+            <%end%>
+          <% end %>
+          </table>
+          </div>
+
+          </div>
+</div>
+
+
+
+
+        <div class="operation_balance">
+          <table>
+          <tr>
+            <th>Operation</th>
+            <th>Amount</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Balance</th>
+          </tr>
+            <%if @record !=nil%>
+              <%@record.each do |item|%>
+                <tr>
+                <td><%=item.operation_type%></td>
+                <td>+<%=item.amount%></td>
+                <%datetime = item.created_at.to_s.dup.force_encoding("UTF-8")%>
+                <% date = datetime.strip.split(' ')[0]%>
+                <% time = datetime.strip.split(' ')[1]%>
+                <td><%=date%></td>
+                <td><%=time%></td>
+                <td><%=item.balance_after%></td>
+                </tr>
+              <%end%>
+            <% end %>
+            </table>
+        </div>
+
+
+
+
+      </div>
+    </div>
+</body>
+
+</html>

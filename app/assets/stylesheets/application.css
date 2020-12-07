@@ -1,0 +1,606 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ svg {
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+body {
+    background-color: #000;
+    color: white;
+}
+
+#container {
+    max-width: 1280px;
+    margin: 0 auto;
+    min-width: 1270px;
+}
+
+.admin_balance {
+    background: #FF7A00;
+border: 2px solid #000000;
+box-sizing: border-box;
+box-shadow: 0px 4px 12px 8px rgba(0, 0, 0, 0.64);
+border-radius: 25px;
+width: 1211px;
+height: 74px;
+
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 74px;
+/* identical to box height */
+padding-left: 30px;
+
+color: #000000;
+}
+
+.admin_operation_balance {
+    width: 451px;
+height: 272px;
+float: right;
+background: #FF7A00;
+border: 2px solid #000000;
+box-sizing: border-box;
+box-shadow: 0px 4px 12px 8px rgba(0, 0, 0, 0.64);
+border-radius: 25px;
+margin-top: 50px;
+margin-bottom: 380px;
+}
+
+.admin-many {
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+
+color: #00680B;
+
+}
+
+.input-admin {
+    width: 388px;
+    height: 45px;
+    background: #D22C2C;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 35px;
+    text-align: center;
+
+
+    font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 50px;
+
+color: #000000;
+}
+
+.admin-enter {
+    width: 388px;
+height: 58px;
+border: 0px;
+background: #FDF7F7;
+border-radius: 15px;
+margin-top: 20px;
+margin-left: 30px;
+}
+
+.admin-submit{
+    width: 388px;
+    height: 60px;
+border: 0px;
+margin-left: 30px;
+    background: #0BA41A;
+    border-radius: 15px;
+}
+
+/* Head */
+h1 {
+    font-size: 0px;
+}
+
+.logo-box:hover, .actions input:hover,.submit-withdraw:hover,.submit-deposit:hover {
+    color: black;
+    position: relative;
+    bottom: 2px;
+}
+
+.fon-head {
+    background: url(/assets/fon-head.svg) 100% 100% no-repeat;
+    height: 145px;
+    box-shadow: inset 0 0 0 1280px rgba(0, 0, 0, 0.3);
+    background-size: cover;
+    max-width: 1280px;
+}
+
+.logo img {
+    border-bottom: 2px solid #000;
+    border-radius: 50px;
+    margin-top: 0px;
+}
+
+li a img {
+    position: relative;
+    bottom: 1px;
+    right: 10px;
+}
+
+nav {
+    margin: 0 auto;
+    padding: 35px 0;
+    overflow: hidden;
+}
+
+.logo-box {
+    float: left;
+    margin: -2px 0 0 25px;
+}
+
+.logo {
+    margin: 0;
+    height: 70px;
+    text-align: center;
+}
+
+ul {
+    margin-right: 25px;
+    padding-left: 0;
+    list-style: none;
+    float: right;
+    height: 70px;
+    text-align: center;
+    background: #FF7A00;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0 4px 12px 8px rgba(0, 0, 0, 0.64);
+    border-radius: 15px;
+}
+
+li:first-child {
+    padding-right: 25px;
+    padding-left: 10px;
+}
+
+li:last-child {
+    border: none;
+    padding-right: 25px;
+    padding-left: 8px;
+}
+
+li a {
+    padding-top: 26px;
+    bottom: 8px;
+}
+
+a:hover {
+    color: black;
+    position: relative;
+    bottom: 2px;
+}
+
+li {
+    display: inline-block;
+    margin-left: 25px;
+    border-right: 3px solid #000000;
+}
+
+li:nth-child(2) {
+    padding-right: 42px;
+    padding-left: 17px;
+}
+
+
+
+/* middle */
+#content {
+    margin-top: -5px;
+}
+
+.fon-content {
+    background: url(/assets/fon-content.svg) 100% 100% no-repeat;
+    box-shadow: inset 0 0 0 1280px rgba(0, 0, 0, 0.3);
+    background-size: cover;
+}
+
+
+
+/* footer */
+#footer {
+    margin-top: -9px;
+}
+
+#footer li {
+    border-right: 0;
+}
+
+#footer li a:hover {
+    color: black;
+    position: relative;
+    bottom: 2px;
+}
+
+#footer li a img {
+    bottom: 8px;
+    margin-right: 5px;
+    margin-bottom: -15px;
+}
+
+#footer span {
+    bottom: 2px;
+    cursor: alias;
+}
+
+#footer li:last-child {
+    float: right;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 25px;
+}
+
+#footer .icon-time {
+    padding-top: 7px;
+    padding-right: 10px;
+}
+
+#footer li:first-child {
+    float: left;
+    
+}
+
+#footer nav {
+    padding: 0;
+}
+
+#footer ul {
+float: none;
+height: 56px;
+margin-left: 25px;
+}
+
+.fon-footer {
+    background: url(/assets/fon-footer.svg) 100% 100% no-repeat;
+    height: 79px;
+    box-shadow: inset 0 0 0 1280px rgba(0, 0, 0, 0.3);
+    background-size: cover;
+}
+
+a, #footer span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    color: black;
+}
+
+/* Reg/Login */
+
+.welcome {
+    padding-top: 221px;
+    margin: 0 auto;
+    display: table;
+    text-align: center;
+}
+
+
+.block-reg {
+    float: right;
+    width: 457px;
+    margin-top: 35px;
+    margin-right: 35px;
+    
+    background: #FF7A00;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 12px 8px rgba(0, 0, 0, 0.64);
+    border-radius: 25px;
+}
+
+.become-client,
+.client-login {
+    height: 30px;
+    padding: 2em 0;
+    background: #FF7A00;
+    border: 1px solid #000000;
+    box-shadow: 0 10px 4px rgba(0, 0, 0, 0.45);
+    border-radius: 15px;
+    width: 454px;
+}
+
+.client-login {
+    margin-top: 70px;
+    margin-bottom: 310px;
+}
+
+.reg-fon-content,.sign-fon-content {
+    background: url(/assets/fon-content.svg) 100% 100% no-repeat;
+    box-shadow: inset 0 0 0 1280px rgba(0, 0, 0, 0.3);
+    background-size: cover;
+    height: 800px;
+}
+
+.form-reg {
+    text-align: center;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 28px;
+margin-top: 37px;
+color: #141414;
+}
+
+.form-reg label{
+    width: 388px;
+    height: 45px;
+    background: #D22C2C;
+    border-radius: 15px;
+    display: inline-block;
+    line-height: 45px;
+
+
+
+
+}
+
+.form-reg input#user_email, .form-reg input#user_password, .form-reg input#user_password_confirmation {
+    width: 388px;
+    height: 58px;
+    background: #FDF7F7;
+    border-radius: 15px;
+    border: 0px;
+    margin: 21px 0px;
+}
+.form-reg input#user_password_confirmation {
+    margin-top: 21px;
+    margin-bottom: 0px;
+}
+
+.form-reg .actions input {
+    width: 386px;
+    height: 60px;
+    background: #0BA41A;
+    border-radius: 15px;
+    border: 0;
+    margin-top: 10px;
+    text-align: center;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 28px;
+color: #141414;
+}
+
+.actions {
+    margin-bottom: 27px;
+}
+
+
+
+/* Page User */
+.input_balance {
+    width: 824px;
+    height: 245px;
+    background: #FF7A00;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 12px 8px rgba(0, 0, 0, 0.64);
+    border-radius: 25px;
+    float: left;
+}
+
+.balance {
+    margin-left: 30px;
+    width: 339px;
+    height: 245px;
+    background: #FF7A00;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 12px 8px rgba(0, 0, 0, 0.64);
+    border-radius: 25px;
+    float: right;
+    margin-right: 15px;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-right: 0px;
+}
+
+.text-balance,.latest-operation,.value-balance {
+    font-family: Roboto;
+    /* font-style: normal; */
+    font-weight: bold;
+    font-size: 36px;
+    /* line-height: 42px; */
+    color: #000000;
+}
+
+.value-balance {
+color: #00680B;
+border-bottom: 2px solid #000000;
+}
+
+.withdraw,.deposit {
+    font-size: 24px;
+color: #910000;
+}
+
+.deposit {
+    color: #00680B;
+}
+
+.operation_balance {
+    margin-bottom: 15px;
+    overflow-y: scroll;
+    width: 1205px;
+    height: 475px;
+    display: inline-block;
+background: #FF7A00;
+border: 2px solid #000000;
+box-sizing: border-box;
+box-shadow: 0px 4px 12px 8px rgba(0, 0, 0, 0.64);
+border-radius: 25px;
+margin-top: 30px;
+margin-left: 30px;
+}
+
+.do_balance {
+    margin: 0px 30px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.input_monay {
+    width: 770px;
+    height: 72px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    border: 0px;
+    margin-left: 25px;
+    margin-top: 14px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+color: #3E3E3E;
+}
+
+.submit-deposit, .submit-withdraw {
+    float: left;
+width: 301px;
+height: 70px;
+background: #848484;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 25px;
+margin: 20px 25px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+color: #000000;
+}
+
+.submit-withdraw {
+    float: right;
+}
+
+
+
+.operation_balance table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    max-width: 70%;
+    width: 70%;
+    border-collapse: collapse;
+    text-align: left;
+  }
+
+  .operation_balance th {
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid #000000;
+    padding: 10px 8px;
+  }
+
+  .operation_balance td {
+    color: rgb(0, 0, 0);
+    transition: .3s linear;
+  }
+
+  .operation_balance tr:hover td {color: #ffffff;}
+
+
+  .fon-block-about {
+    width: 1215px;
+    background: #FF7A00;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 12px 8px rgba(0, 0, 0, 0.64);
+    border-radius: 25px;
+    margin: 0 auto;
+    /* margin-top: 30px; */
+    margin: 30px;
+    display: inline-block;
+    padding-bottom: 115px;
+  }
+
+  .about-special, .We-are {
+      text-align: center;
+      width: 388px;
+      height: 45px;
+      background: #D22C2C;
+      border-radius: 15px;
+      /* display: inline-block; */
+      line-height: 45px;
+      margin: 0 auto;
+
+      font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+    line-height: 40px;
+color: #000000;
+  }
+
+  .We-are {
+    font-size: 40px;
+    line-height: 49px;
+    background: none;
+    margin-bottom: 25px;
+  }
+
+  .about-user,.user-about-email {
+      float: left;
+
+      width: 388px;
+height: 58px;
+left: 68px;
+top: 323px;
+
+background: #FDF7F7;
+border-radius: 15px;
+margin-left: 30px;
+    margin-right: 30px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 60px;
+text-align: center;
+color: #000000;
+margin-bottom: 15px;
+margin-top: 15px;
+  }
+
+  .user-about-email {
+      float: right;
+  }
+
+  .backend {
+    clear: both;
+  }
