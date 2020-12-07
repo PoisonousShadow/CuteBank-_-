@@ -3,13 +3,13 @@
 Rails.application.routes.draw do
   devise_for :users
 
-  resources :main
+  resources :main, only: [:index]
 
-  resources :admin
+  resources :about, only: [:index]
 
-  resources :user
+  resources :admin, only: %i[index create]
 
-  get '/users' => 'user#index', as: :user_root # creates user_root_path
+  resources :user, only: %i[index create]
 
   root to: 'main#index'
 end

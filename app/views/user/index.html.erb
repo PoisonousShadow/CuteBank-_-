@@ -57,6 +57,7 @@
             <%2.times do |i|%>
               <%record = @record[@record.count - i - 1 ] %>
               <tr>
+              <%if record!= nil%>
               <% if record.operation_type == 'Deposit'%>
               
               <td><span class="deposit" ><%=record.operation_type%>:</span></td>
@@ -68,7 +69,7 @@
                 <td><span class="withdraw"><%=record.operation_type%>:</span></td>
                 <td><span class="withdraw">-$<%=record.amount%></span></td>
                 <%end%>
-                
+              <%end%>
               </tr>    
             <%end%>
           <% end %>
