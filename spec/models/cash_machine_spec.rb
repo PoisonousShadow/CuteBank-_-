@@ -1,3 +1,5 @@
+require 'rails_helper'
+
 RSpec.describe CashMachine, :type => :model do
   before(:all) do
     @cash_machine = CashMachine.create(id: 1)
