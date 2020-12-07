@@ -1,0 +1,40 @@
+<html>
+<head>
+  <title>CuteBank - sign in</title>
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="content">
+    <div class="sign-fon-content">
+      <div class="block-reg block-login">
+        <div class="form-reg">
+        <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+          <%= render "devise/shared/error_messages", resource: resource %>
+         
+          <div class="field">
+          <label for="email">Enter your email</label><br>
+          <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+          </div>
+
+          <div class="field">
+            <label for="Pick a password">Enter your password</label><br>
+            <% if @minimum_password_length %>
+            <% end %>
+            <%= f.password_field :password, autocomplete: "current-password" %>
+          </div>
+
+          <div class="actions">
+          <%= f.submit "Sign in" %>
+        </div>
+
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

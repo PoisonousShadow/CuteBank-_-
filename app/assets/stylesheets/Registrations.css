@@ -1,0 +1,77 @@
+svg {
+    -webkit-background-clip: text;
+}
+
+
+.logo-box:hover, .actions input:hover, .back:hover {
+    color: black;
+    position: relative;
+    bottom: 2px;
+}
+
+body {
+    background-color: #000;
+}
+
+/* Логотип */
+.logo img {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 0px;
+}
+
+/* Форма регистрации */
+#container {
+    margin: 0 auto;
+    width: 645px;
+}
+
+#error_explanation {
+    color: white!important;
+}
+
+.form-reg {
+    text-align: center;
+}
+
+input#user_email, input#user_password, input#user_password_confirmation {
+    width: 510px!important;
+    height: 60px!important;
+    background: #C4C4C4!important;
+    border-radius: 15px!important;
+    border: 0!important;
+    margin-top: 35px!important;
+}
+
+input, input::-webkit-input-placeholder, a {
+    font-family: Roboto!important;
+    font-style: normal!important;
+    font-weight: 300!important;
+    font-size: 24px!important;
+    line-height: 28px!important;
+    color: #141414!important;
+    text-align: center!important;
+    text-decoration: none!important;
+}
+
+.actions input, .back {
+    width: 330px!important;
+    height: 60px!important;
+    background: #FF7A00!important;
+    border-radius: 15px!important;
+    border: 0px!important;
+    cursor: pointer!important;
+    line-height: 60px!important;
+    margin: 0 auto!important;
+}
+
+.back {
+    margin-top: 30px!important;
+}
+
+.actions {
+    margin-top: 60px;
+}
