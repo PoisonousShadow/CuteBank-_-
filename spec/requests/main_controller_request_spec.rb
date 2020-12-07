@@ -10,14 +10,14 @@ RSpec.describe "MainControllers", type: :request do
     context MainController, type: :controller do
         context 'User' do
             login_user
-        it{expect(get :index).to have_http_status(200)}
+        it{expect(get :index).to redirect_to(user_index_path)}
         end
     end
 
     context MainController, type: :controller do
         context 'Admin' do
             login_admin
-        it{expect(get :index).to have_http_status(200)}
+        it{expect(get :index).to redirect_to(admin_index_path)}
         end
     end
 end

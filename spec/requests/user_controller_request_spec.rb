@@ -21,8 +21,8 @@ RSpec.describe "UserControllers", type: :request do
             it{expect(get :index).to have_http_status(200)}
             it{expect(get :create, :params => {:commit => {:user => @userast.attributes}, :user => @userast.attributes}).to have_http_status(200)}
             it{expect(get :create, :params => {:commit => '{:user => @userast.attributes}', :user => @userast.attributes}).to render_template('index')}
-            it{expect(post :create,:params => {:commit => 'Withdraw', :user => @userast.attributes}).to redirect_to('/user')}
-            it{expect(post :create,:params => {:commit => 'Deposit', :user => @userast.attributes}).to redirect_to('/user')}
+            it{expect(post :create,:params => {:commit => 'Withdraw', :user => @userast.attributes}).to render_template('user/index')}
+            it{expect(post :create,:params => {:commit => 'Deposit', :user => @userast.attributes}).to render_template('user/index')}
         end
     end
 

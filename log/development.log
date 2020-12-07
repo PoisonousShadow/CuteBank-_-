@@ -3481,3 +3481,46 @@ Processing by Devise::SessionsController#new as HTML
 Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 4409)
 
 
+Started GET "/" for 127.0.0.1 at 2020-12-07 16:13:46 +0300
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 341)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 71ms (Views: 60.5ms | ActiveRecord: 0.0ms | Allocations: 25973)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-12-07 16:13:47 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.5ms | Allocations: 156)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 7.4ms | Allocations: 1415)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 56ms (Views: 19.3ms | ActiveRecord: 7.0ms | Allocations: 12532)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2020-12-07 16:13:53 +0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"rtUvhu4rivQYojReUYzFMdtrmRtMbZ+noTfVS/NQpyJ8b1u46hWiYGNn/lSXDotWPoFh+harGPYvAWvWjwwb6Q==", "user"=>{"email"=>"fordgt260@mail.ru", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "fordgt260@mail.ru"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/user
+Completed 302 Found in 542ms (ActiveRecord: 4.1ms | Allocations: 201962)
+
+
+Started GET "/user" for 127.0.0.1 at 2020-12-07 16:13:54 +0300
+Processing by UserController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/user_controller.rb:8:in `index'
+  Rendering user/index.html.erb within layouts/application
+  [1m[36mUsersHistoryRecord Load (0.8ms)[0m  [1m[34mSELECT "users_history_records".* FROM "users_history_records" WHERE "users_history_records"."user_id" = $1[0m  [["user_id", 3]]
+  ↳ app/views/user/index.html.erb:56:in `!='
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "users_history_records" WHERE "users_history_records"."user_id" = $1[0m  [["user_id", 3]]
+  ↳ app/views/user/index.html.erb:58
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users_history_records" WHERE "users_history_records"."user_id" = $1[0m  [["user_id", 3]]
+  ↳ app/views/user/index.html.erb:58
+  Rendered user/index.html.erb within layouts/application (Duration: 23.9ms | Allocations: 9665)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 46ms (Views: 27.2ms | ActiveRecord: 6.2ms | Allocations: 19187)
+
+
