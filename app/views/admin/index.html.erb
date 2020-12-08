@@ -1,0 +1,49 @@
+<html>
+
+<head>
+  <title>CuteBank - admin</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="content">
+    <div class="fon-content">
+
+      <div class="do_balance">
+        
+        <div class="admin_balance">
+          <div>Current cash amount in cash machine:
+            <span class="admin-many">$<%= @cash.cash_amount%></span>
+          </div>  
+        </div>
+      
+        <div class="admin_operation_balance">
+          <div>
+            <%= form_for :admin, :url => {:controller => :admin, :action => :index} do |f| %>
+              <% if @cash.errors.any? %>
+                <% @cash.errors.full_messages.each do |msg| %>
+                  <div class= "alertCash ">
+                    <%= msg%>
+                  </div>
+                <% end %>
+              <% end %>
+              <p class="input-admin">
+                Set Enter new cash amount  <br>
+                </p>
+              <%= f.text_field :cash_amount, class: 'admin-enter' %>
+              
+
+              <p  >
+                <%= f.submit 'Submit', class: 'admin-submit' %>
+              </p>
+            <%end%>
+          </div>  
+        </div>
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
