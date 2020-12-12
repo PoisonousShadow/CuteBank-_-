@@ -16,37 +16,14 @@ class UserController < ApplicationController
     @record = @user.users_history_record.all
 
     unless params[:commit].nil?
-      if !choose_action
-        render 'index'
-      else
+      if choose_action
         redirect_to '/user'
+
+      else
+        render 'index'
+
       end
-    end
-  end
 
-  def deposit(amount)
-    @user = User.find(current_user.id)
-
-    if User.deposit(amount, @user)
-      CashMachine.add_cash(amount)
-
-      @record = @user.users_history_record.build(operation_type: 'Deposit', amount: amount, balance_after: @user.current_balance)
-
-      @record.save ? true : false
-    else
-      false
-    end
-  end
-
-  def withdraw(amount)
-    @user = User.find(current_user.id)
-
-    if User.withdraw(amount, @user)
-      @record = @user.users_history_record.build(operation_type: 'Withdraw', amount: amount, balance_after: @user.current_balance)
-
-      @record.save ? true : false
-    else
-      false
     end
   end
 
@@ -56,13 +33,28 @@ class UserController < ApplicationController
   def choose_action
     hash = params.require(:user).permit(:current_balance, :commit)
     hash[:commit] = params[:commit]
-    sum_int = hash[:current_balance].to_f
+    result = check_input(hash[:current_balance])
+    if result.nil?
+      hash[:current_balance] = hash[:current_balance].to_f
 
-    case hash[:commit]
-    when 'Withdraw'
-      withdraw(sum_int)
-    when 'Deposit'
-      deposit(sum_int)
+      operate(hash)
+
+    else
+      User.add_errors(result, @user)
+    end
+  end
+
+  def operate(hash)
+    @user = User.find(current_user.id)
+
+    if User.operate(hash, @user)
+      @record = @user.users_history_record.build(operation_type: hash[:commit], amount: hash[:current_balance], balance_after: @user.current_balance)
+
+      @record.save! ? true : false
+
+    else
+      false
+
     end
   end
 
