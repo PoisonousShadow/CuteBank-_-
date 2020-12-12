@@ -3,11 +3,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-<<<<<<< HEAD
-ruby '2.7.0'
-=======
 ruby '2.7.2'
->>>>>>> upstream/main
 
 gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -34,24 +30,15 @@ gem 'jbuilder', '~> 2.7'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
-<<<<<<< HEAD
-
 gem 'faker'
-=======
-gem 'faker'
-gem 'rubocop', require: false
->>>>>>> upstream/main
+gem 'rubocop-rails', require: false
+gem 'rubocop-rspec', require: false
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
-<<<<<<< HEAD
-  gem 'rspec-rails', ">= 2.0.0.beta"
-  gem 'factory_bot_rails'
-=======
   gem 'factory_bot_rails'
   gem 'rspec-rails', '>= 2.0.0.beta'
->>>>>>> upstream/main
 end
 
 group :development do
@@ -66,21 +53,12 @@ end
 group :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 2.15'
-<<<<<<< HEAD
-  gem 'shoulda-matchers'
-  gem 'rails-controller-testing'
-  gem 'selenium-webdriver'
-  # Easy installation and use of web drivers to run system tests with browsers
-  gem 'webdrivers'
-  gem 'database_cleaner'
-=======
   gem 'rails-controller-testing'
   gem 'selenium-webdriver'
   gem 'shoulda-matchers'
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'database_cleaner'
   gem 'webdrivers'
->>>>>>> upstream/main
 end
 
 gem 'simplecov', require: false, group: :test

@@ -1,11 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/config/environment.rb": {
-=======
-      "/Users/andrew/app/CuteBank-_-/config/environment.rb": {
->>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -16,11 +12,7 @@
           1
         ]
       },
-<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/config/application.rb": {
-=======
-      "/Users/andrew/app/CuteBank-_-/config/application.rb": {
->>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -45,11 +37,7 @@
           null
         ]
       },
-<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/config/boot.rb": {
-=======
-      "/Users/andrew/app/CuteBank-_-/config/boot.rb": {
->>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -59,11 +47,7 @@
           1
         ]
       },
-<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/config/environments/test.rb": {
-=======
-      "/Users/andrew/app/CuteBank-_-/config/environments/test.rb": {
->>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -118,11 +102,7 @@
           null
         ]
       },
-<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/config/initializers/application_controller_renderer.rb": {
-=======
-      "/Users/andrew/app/CuteBank-_-/config/initializers/application_controller_renderer.rb": {
->>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -135,11 +115,7 @@
           null
         ]
       },
-<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/config/initializers/assets.rb": {
-=======
-      "/Users/andrew/app/CuteBank-_-/config/initializers/assets.rb": {
->>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -159,11 +135,7 @@
           null
         ]
       },
-<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/config/initializers/backtrace_silencers.rb": {
-=======
-      "/Users/andrew/app/CuteBank-_-/config/initializers/backtrace_silencers.rb": {
->>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -175,11 +147,7 @@
           null
         ]
       },
-<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/config/initializers/content_security_policy.rb": {
-=======
-      "/Users/andrew/app/CuteBank-_-/config/initializers/content_security_policy.rb": {
->>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -214,11 +182,7 @@
           null
         ]
       },
-<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/config/initializers/cookies_serializer.rb": {
-=======
-      "/Users/andrew/app/CuteBank-_-/config/initializers/cookies_serializer.rb": {
->>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -229,11 +193,7 @@
           1
         ]
       },
-<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/config/initializers/devise.rb": {
-=======
-      "/Users/andrew/app/CuteBank-_-/config/initializers/devise.rb": {
->>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -242,11 +202,7 @@
           null
         ]
       },
-<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/config/initializers/filter_parameter_logging.rb": {
-=======
-      "/Users/andrew/app/CuteBank-_-/config/initializers/filter_parameter_logging.rb": {
->>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -256,11 +212,7 @@
           1
         ]
       },
-<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/config/initializers/inflections.rb": {
-=======
-      "/Users/andrew/app/CuteBank-_-/config/initializers/inflections.rb": {
->>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -281,11 +233,7 @@
           null
         ]
       },
-<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/config/initializers/mime_types.rb": {
-=======
-      "/Users/andrew/app/CuteBank-_-/config/initializers/mime_types.rb": {
->>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -294,11 +242,7 @@
           null
         ]
       },
-<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/config/initializers/wrap_parameters.rb": {
-=======
-      "/Users/andrew/app/CuteBank-_-/config/initializers/wrap_parameters.rb": {
->>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -318,30 +262,18 @@
           null
         ]
       },
-<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/spec/factories/factories.rb": {
-=======
-      "/Users/andrew/app/CuteBank-_-/spec/factories/factories.rb": {
->>>>>>> upstream/main
         "lines": [
           1,
           1,
-          16,
-          16,
-          10,
-          null,
-<<<<<<< HEAD
+          25,
+          25,
+          19,
           null,
           null
         ]
       },
       "/home/mangos/data/www/CuteBank-_-/config/routes.rb": {
-=======
-          null
-        ]
-      },
-      "/Users/andrew/app/CuteBank-_-/config/routes.rb": {
->>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -360,11 +292,7 @@
           null
         ]
       },
-<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/app/models/user.rb": {
-=======
-      "/Users/andrew/app/CuteBank-_-/app/models/user.rb": {
->>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -377,634 +305,708 @@
           null,
           null,
           1,
-          null,
-          1,
-          1004,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1003,
-          null,
-          null,
-          null,
-          1,
-          1004,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1003,
-          null,
-          null,
-          null,
-          1,
-          2008,
-          2002,
-          null,
-          2002,
-          6,
-          4,
-          null,
-          4,
-          null,
-          2,
-          null,
-          null,
-          null
-        ]
-      },
-<<<<<<< HEAD
-      "/home/mangos/data/www/CuteBank-_-/app/models/application_record.rb": {
-=======
-      "/Users/andrew/app/CuteBank-_-/app/models/application_record.rb": {
->>>>>>> upstream/main
-        "lines": [
-          null,
-          null,
-          1,
-          1,
-          null
-        ]
-      },
-<<<<<<< HEAD
-      "/home/mangos/data/www/CuteBank-_-/app/helpers/about_helper.rb": {
-=======
-      "/Users/andrew/app/CuteBank-_-/app/helpers/about_helper.rb": {
->>>>>>> upstream/main
-        "lines": [
-          null,
-          null,
-          1,
-          null
-        ]
-      },
-<<<<<<< HEAD
-      "/home/mangos/data/www/CuteBank-_-/app/helpers/admin_helper.rb": {
-=======
-      "/Users/andrew/app/CuteBank-_-/app/helpers/admin_helper.rb": {
->>>>>>> upstream/main
-        "lines": [
-          null,
-          null,
-          1,
-          null
-        ]
-      },
-<<<<<<< HEAD
-      "/home/mangos/data/www/CuteBank-_-/app/helpers/application_helper.rb": {
-=======
-      "/Users/andrew/app/CuteBank-_-/app/helpers/application_helper.rb": {
->>>>>>> upstream/main
-        "lines": [
-          null,
-          null,
-          1,
-          null
-        ]
-      },
-<<<<<<< HEAD
-      "/home/mangos/data/www/CuteBank-_-/app/helpers/main_helper.rb": {
-=======
-      "/Users/andrew/app/CuteBank-_-/app/helpers/main_helper.rb": {
->>>>>>> upstream/main
-        "lines": [
-          null,
-          null,
-          1,
-          null
-        ]
-      },
-<<<<<<< HEAD
-      "/home/mangos/data/www/CuteBank-_-/app/helpers/user_helper.rb": {
-=======
-      "/Users/andrew/app/CuteBank-_-/app/helpers/user_helper.rb": {
->>>>>>> upstream/main
-        "lines": [
-          null,
-          null,
-          1,
-          null
-        ]
-      },
-<<<<<<< HEAD
-      "/home/mangos/data/www/CuteBank-_-/spec/support/controller_macros.rb": {
-        "lines": [
-          null,
-=======
-      "/Users/andrew/app/CuteBank-_-/spec/support/factory_bot.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/andrew/app/CuteBank-_-/spec/support/controller_macros.rb": {
-        "lines": [
->>>>>>> upstream/main
-          1,
-          1,
-          2,
-          3,
-          3,
-          3,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
-<<<<<<< HEAD
-      "/home/mangos/data/www/CuteBank-_-/spec/support/database_cleaner.rb": {
-=======
-      "/Users/andrew/app/CuteBank-_-/spec/support/database_cleaner.rb": {
->>>>>>> upstream/main
-        "lines": [
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          26,
-          null,
-          null,
-          1,
-          0,
-          null,
-          null,
-          1,
-          26,
-          null,
-          null,
-          1,
-          26,
-          null,
-          null
-        ]
-      },
-<<<<<<< HEAD
-      "/home/mangos/data/www/CuteBank-_-/spec/support/factory_bot.rb": {
-        "lines": [
-          null,
-          1,
-          1,
-          null
-        ]
-      },
-      "/home/mangos/data/www/CuteBank-_-/app/models/cash_machine.rb": {
-=======
-      "/Users/andrew/app/CuteBank-_-/app/models/cash_machine.rb": {
->>>>>>> upstream/main
-        "lines": [
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
-          4,
-          null,
-          4,
-          null,
-          4,
-          null,
-          null,
-          null,
-          1,
-          14,
-          14,
-          null,
-          14,
-          1,
-          1,
-          null,
-          13,
-          13,
-          null,
-          13,
-          null,
-          null,
-          null,
-          null,
-          1,
-          2,
-          2,
-          2,
-          null,
-          2,
-          null,
-          0,
-          0,
-          null,
-          null,
-          null,
-          1,
-          2,
-          null,
-          null
-        ]
-      },
-<<<<<<< HEAD
-      "/home/mangos/data/www/CuteBank-_-/spec/models/user_spec.rb": {
-=======
-      "/Users/andrew/app/CuteBank-_-/spec/models/user_spec.rb": {
->>>>>>> upstream/main
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1001,
-          1001,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1001,
-          1001,
-          null,
-          1,
-          1,
-          null,
-          null,
-<<<<<<< HEAD
-          null,
-          null
-        ]
-      },
-      "/home/mangos/data/www/CuteBank-_-/spec/models/users_history_record_spec.rb": {
-=======
-          null
-        ]
-      },
-      "/Users/andrew/app/CuteBank-_-/spec/models/users_history_record_spec.rb": {
->>>>>>> upstream/main
-        "lines": [
-          1,
-          null,
-          1,
-<<<<<<< HEAD
-          null,
-=======
->>>>>>> upstream/main
-          1,
-          2,
-          null,
-          null
-        ]
-      },
-<<<<<<< HEAD
-      "/home/mangos/data/www/CuteBank-_-/app/models/users_history_record.rb": {
-=======
-      "/Users/andrew/app/CuteBank-_-/app/models/users_history_record.rb": {
->>>>>>> upstream/main
-        "lines": [
-          null,
-          null,
-          1,
-          1,
-          null
-        ]
-      },
-<<<<<<< HEAD
-      "/home/mangos/data/www/CuteBank-_-/spec/requests/admin_request_spec.rb": {
-=======
-      "/Users/andrew/app/CuteBank-_-/spec/requests/admin_request_spec.rb": {
->>>>>>> upstream/main
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          3,
-          3,
-          3,
-          3,
-          null,
-          null,
-          2,
-          2,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-<<<<<<< HEAD
-          null,
-=======
->>>>>>> upstream/main
-          1,
-          1,
-          2,
-          2,
-          2,
-          2,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          2,
-          2,
-          2,
-          2,
-          null,
-          null,
-          2,
-          2,
-          null,
-          null,
-<<<<<<< HEAD
-          null,
-          null
-        ]
-      },
-      "/home/mangos/data/www/CuteBank-_-/app/controllers/admin_controller.rb": {
-=======
-          null
-        ]
-      },
-      "/Users/andrew/app/CuteBank-_-/app/controllers/admin_controller.rb": {
->>>>>>> upstream/main
-        "lines": [
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          2,
-          null,
-          2,
-          2,
-          2,
-          null,
-          2,
-          null,
-          2,
-          null,
-          null,
-          null
-        ]
-      },
-<<<<<<< HEAD
-      "/home/mangos/data/www/CuteBank-_-/app/controllers/application_controller.rb": {
-=======
-      "/Users/andrew/app/CuteBank-_-/app/controllers/application_controller.rb": {
->>>>>>> upstream/main
-        "lines": [
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
-          0,
-          null,
-          null,
-          1,
-          0,
-          null,
           null,
           1,
           5,
+          null,
+          null,
+          1,
+          null,
+          null,
+          3,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          4,
+          null,
+          4,
           2,
-          null,
           2,
-          null,
-          null,
-          null
-        ]
-      },
-<<<<<<< HEAD
-      "/home/mangos/data/www/CuteBank-_-/spec/requests/main_controller_request_spec.rb": {
-=======
-      "/Users/andrew/app/CuteBank-_-/spec/requests/main_controller_request_spec.rb": {
->>>>>>> upstream/main
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          2,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
           2,
           null,
           null,
+          0,
           null,
-          1,
-          1,
-          1,
+          0,
+          null,
+          null,
+          null,
+          null,
           2,
-          null,
-          null,
-          null
-        ]
-      },
-<<<<<<< HEAD
-      "/home/mangos/data/www/CuteBank-_-/app/controllers/main_controller.rb": {
-=======
-      "/Users/andrew/app/CuteBank-_-/app/controllers/main_controller.rb": {
->>>>>>> upstream/main
-        "lines": [
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
+          2,
           null,
           null,
           null,
           null,
           1,
           3,
-          2,
-          1,
+          3,
+          3,
           null,
-          1,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-<<<<<<< HEAD
-      "/home/mangos/data/www/CuteBank-_-/spec/requests/user_controller_request_spec.rb": {
-=======
-      "/Users/andrew/app/CuteBank-_-/spec/requests/user_controller_request_spec.rb": {
->>>>>>> upstream/main
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          2,
-          2,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          5,
-          5,
-          5,
-          5,
-          null,
-          null,
-          2,
-          2,
-          2,
-          2,
-          2,
-          null,
-          null,
-          null,
-          1,
-          1,
-          2,
-          2,
-          null,
-          null,
-          null
-        ]
-      },
-<<<<<<< HEAD
-      "/home/mangos/data/www/CuteBank-_-/app/controllers/user_controller.rb": {
-=======
-      "/Users/andrew/app/CuteBank-_-/app/controllers/user_controller.rb": {
->>>>>>> upstream/main
-        "lines": [
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null,
-          1,
-          4,
-          null,
-          4,
-          null,
-          4,
-          4,
-          4,
           null,
           0,
-          null,
-          null,
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
-          0,
-          null,
-          0,
-          null,
-          0,
-          null,
-          1,
-          null,
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
-          0,
-          null,
-          0,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          1,
-          4,
-          4,
-          4,
-          null,
-          4,
-          null,
-          1,
-          null,
-          1,
-          null,
           null,
           null,
           null,
           null,
           1,
           7,
+          6,
+          6,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/mangos/data/www/CuteBank-_-/app/models/application_record.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null
+        ]
+      },
+      "/home/mangos/data/www/CuteBank-_-/app/helpers/about_helper.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null
+        ]
+      },
+      "/home/mangos/data/www/CuteBank-_-/app/helpers/admin_helper.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null
+        ]
+      },
+      "/home/mangos/data/www/CuteBank-_-/app/helpers/application_helper.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null
+        ]
+      },
+      "/home/mangos/data/www/CuteBank-_-/app/helpers/main_helper.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null
+        ]
+      },
+      "/home/mangos/data/www/CuteBank-_-/app/helpers/user_helper.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null
+        ]
+      },
+      "/home/mangos/data/www/CuteBank-_-/spec/support/controller_macros.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          3,
+          3,
+          3,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/mangos/data/www/CuteBank-_-/spec/support/database_cleaner.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          49,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          49,
+          null,
+          null,
+          1,
+          49,
+          null,
+          null
+        ]
+      },
+      "/home/mangos/data/www/CuteBank-_-/spec/support/factory_bot.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/home/mangos/data/www/CuteBank-_-/app/models/cash_machine.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          6,
+          6,
+          null,
+          6,
+          2,
+          null,
+          null,
+          4,
+          4,
+          null,
+          4,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          4,
+          null,
+          4,
+          null,
+          4,
+          1,
+          null,
+          null,
+          3,
+          3,
+          null,
+          3,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          2,
+          null,
+          2,
+          null,
+          null
+        ]
+      },
+      "/home/mangos/data/www/CuteBank-_-/spec/models/user_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/mangos/data/www/CuteBank-_-/spec/models/users_history_record_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
+      "/home/mangos/data/www/CuteBank-_-/app/models/users_history_record.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null
+        ]
+      },
+      "/home/mangos/data/www/CuteBank-_-/spec/requests/admin_request_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          3,
+          3,
+          3,
+          3,
+          null,
+          null,
+          2,
+          2,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null,
+          2,
+          2,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/mangos/data/www/CuteBank-_-/app/controllers/admin_controller.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          2,
+          null,
+          2,
+          2,
+          2,
+          2,
+          0,
+          null,
+          0,
+          null,
+          2,
+          null,
+          null,
+          2,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/mangos/data/www/CuteBank-_-/app/controllers/application_controller.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          5,
+          2,
+          null,
+          2,
+          null,
+          null,
+          null,
+          1,
+          21,
+          null,
+          21,
+          9,
+          null,
+          9,
+          null,
+          null,
+          7,
+          null,
+          null,
+          0,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          12,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/mangos/data/www/CuteBank-_-/spec/requests/application_controller_request_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          14,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/mangos/data/www/CuteBank-_-/spec/requests/main_controller_request_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          2,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          2,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          2,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/mangos/data/www/CuteBank-_-/app/controllers/main_controller.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          3,
+          2,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/mangos/data/www/CuteBank-_-/spec/requests/user_controller_request_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          7,
+          7,
+          7,
+          7,
+          null,
+          null,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          null,
+          1,
+          1,
+          2,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          2,
+          2,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/mangos/data/www/CuteBank-_-/app/controllers/user_controller.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          5,
+          null,
+          5,
+          null,
+          5,
+          5,
+          1,
+          null,
+          null,
+          4,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          5,
+          5,
+          5,
+          5,
+          1,
+          null,
+          1,
+          null,
+          null,
+          4,
+          null,
+          null,
+          null,
+          1,
+          2,
+          null,
+          2,
+          2,
+          null,
+          2,
+          null,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          8,
           null,
           null
         ]
       }
     },
-<<<<<<< HEAD
-    "timestamp": 1607347373
-=======
-    "timestamp": 1607449884
->>>>>>> upstream/main
+    "timestamp": 1607810808
   }
 }

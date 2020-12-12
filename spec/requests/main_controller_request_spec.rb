@@ -1,27 +1,5 @@
 require 'rails_helper'
 
-<<<<<<< HEAD
-RSpec.describe "MainControllers", type: :request do
-    context MainController, type: :controller do
-        context 'Anonim' do
-            it{expect(get :index).to have_http_status(200)}
-        end
-    end
-
-    context MainController, type: :controller do
-        context 'User' do
-            login_user
-        it{expect(get :index).to redirect_to(user_index_path)}
-        end
-    end
-
-    context MainController, type: :controller do
-        context 'Admin' do
-            login_admin
-        it{expect(get :index).to redirect_to(admin_index_path)}
-        end
-    end
-=======
 RSpec.describe 'MainControllers', type: :request do
   context MainController, type: :controller do
     context 'Anonim' do
@@ -42,5 +20,4 @@ RSpec.describe 'MainControllers', type: :request do
       it { expect(get(:index)).to redirect_to(admin_index_path) }
     end
   end
->>>>>>> upstream/main
 end
