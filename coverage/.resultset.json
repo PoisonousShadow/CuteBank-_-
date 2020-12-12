@@ -1,7 +1,11 @@
 {
   "RSpec": {
     "coverage": {
+<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/config/environment.rb": {
+=======
+      "/Users/andrew/app/CuteBank-_-/config/environment.rb": {
+>>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -12,7 +16,11 @@
           1
         ]
       },
+<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/config/application.rb": {
+=======
+      "/Users/andrew/app/CuteBank-_-/config/application.rb": {
+>>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -37,7 +45,11 @@
           null
         ]
       },
+<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/config/boot.rb": {
+=======
+      "/Users/andrew/app/CuteBank-_-/config/boot.rb": {
+>>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -47,7 +59,11 @@
           1
         ]
       },
+<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/config/environments/test.rb": {
+=======
+      "/Users/andrew/app/CuteBank-_-/config/environments/test.rb": {
+>>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -102,7 +118,11 @@
           null
         ]
       },
+<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/config/initializers/application_controller_renderer.rb": {
+=======
+      "/Users/andrew/app/CuteBank-_-/config/initializers/application_controller_renderer.rb": {
+>>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -115,7 +135,11 @@
           null
         ]
       },
+<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/config/initializers/assets.rb": {
+=======
+      "/Users/andrew/app/CuteBank-_-/config/initializers/assets.rb": {
+>>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -135,7 +159,11 @@
           null
         ]
       },
+<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/config/initializers/backtrace_silencers.rb": {
+=======
+      "/Users/andrew/app/CuteBank-_-/config/initializers/backtrace_silencers.rb": {
+>>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -147,7 +175,11 @@
           null
         ]
       },
+<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/config/initializers/content_security_policy.rb": {
+=======
+      "/Users/andrew/app/CuteBank-_-/config/initializers/content_security_policy.rb": {
+>>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -182,7 +214,11 @@
           null
         ]
       },
+<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/config/initializers/cookies_serializer.rb": {
+=======
+      "/Users/andrew/app/CuteBank-_-/config/initializers/cookies_serializer.rb": {
+>>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -193,7 +229,11 @@
           1
         ]
       },
+<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/config/initializers/devise.rb": {
+=======
+      "/Users/andrew/app/CuteBank-_-/config/initializers/devise.rb": {
+>>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -202,7 +242,11 @@
           null
         ]
       },
+<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/config/initializers/filter_parameter_logging.rb": {
+=======
+      "/Users/andrew/app/CuteBank-_-/config/initializers/filter_parameter_logging.rb": {
+>>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -212,7 +256,11 @@
           1
         ]
       },
+<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/config/initializers/inflections.rb": {
+=======
+      "/Users/andrew/app/CuteBank-_-/config/initializers/inflections.rb": {
+>>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -233,7 +281,11 @@
           null
         ]
       },
+<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/config/initializers/mime_types.rb": {
+=======
+      "/Users/andrew/app/CuteBank-_-/config/initializers/mime_types.rb": {
+>>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -242,7 +294,11 @@
           null
         ]
       },
+<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/config/initializers/wrap_parameters.rb": {
+=======
+      "/Users/andrew/app/CuteBank-_-/config/initializers/wrap_parameters.rb": {
+>>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -262,7 +318,11 @@
           null
         ]
       },
+<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/spec/factories/factories.rb": {
+=======
+      "/Users/andrew/app/CuteBank-_-/spec/factories/factories.rb": {
+>>>>>>> upstream/main
         "lines": [
           1,
           1,
@@ -270,11 +330,18 @@
           16,
           10,
           null,
+<<<<<<< HEAD
           null,
           null
         ]
       },
       "/home/mangos/data/www/CuteBank-_-/config/routes.rb": {
+=======
+          null
+        ]
+      },
+      "/Users/andrew/app/CuteBank-_-/config/routes.rb": {
+>>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -293,7 +360,11 @@
           null
         ]
       },
+<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/app/models/user.rb": {
+=======
+      "/Users/andrew/app/CuteBank-_-/app/models/user.rb": {
+>>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -345,7 +416,11 @@
           null
         ]
       },
+<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/app/models/application_record.rb": {
+=======
+      "/Users/andrew/app/CuteBank-_-/app/models/application_record.rb": {
+>>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -354,7 +429,11 @@
           null
         ]
       },
+<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/app/helpers/about_helper.rb": {
+=======
+      "/Users/andrew/app/CuteBank-_-/app/helpers/about_helper.rb": {
+>>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -362,7 +441,11 @@
           null
         ]
       },
+<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/app/helpers/admin_helper.rb": {
+=======
+      "/Users/andrew/app/CuteBank-_-/app/helpers/admin_helper.rb": {
+>>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -370,7 +453,11 @@
           null
         ]
       },
+<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/app/helpers/application_helper.rb": {
+=======
+      "/Users/andrew/app/CuteBank-_-/app/helpers/application_helper.rb": {
+>>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -378,7 +465,11 @@
           null
         ]
       },
+<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/app/helpers/main_helper.rb": {
+=======
+      "/Users/andrew/app/CuteBank-_-/app/helpers/main_helper.rb": {
+>>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -386,7 +477,11 @@
           null
         ]
       },
+<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/app/helpers/user_helper.rb": {
+=======
+      "/Users/andrew/app/CuteBank-_-/app/helpers/user_helper.rb": {
+>>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -394,9 +489,21 @@
           null
         ]
       },
+<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/spec/support/controller_macros.rb": {
         "lines": [
           null,
+=======
+      "/Users/andrew/app/CuteBank-_-/spec/support/factory_bot.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/andrew/app/CuteBank-_-/spec/support/controller_macros.rb": {
+        "lines": [
+>>>>>>> upstream/main
           1,
           1,
           2,
@@ -417,7 +524,11 @@
           null
         ]
       },
+<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/spec/support/database_cleaner.rb": {
+=======
+      "/Users/andrew/app/CuteBank-_-/spec/support/database_cleaner.rb": {
+>>>>>>> upstream/main
         "lines": [
           1,
           1,
@@ -442,6 +553,7 @@
           null
         ]
       },
+<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/spec/support/factory_bot.rb": {
         "lines": [
           null,
@@ -451,6 +563,9 @@
         ]
       },
       "/home/mangos/data/www/CuteBank-_-/app/models/cash_machine.rb": {
+=======
+      "/Users/andrew/app/CuteBank-_-/app/models/cash_machine.rb": {
+>>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -500,7 +615,11 @@
           null
         ]
       },
+<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/spec/models/user_spec.rb": {
+=======
+      "/Users/andrew/app/CuteBank-_-/spec/models/user_spec.rb": {
+>>>>>>> upstream/main
         "lines": [
           1,
           null,
@@ -538,23 +657,37 @@
           1,
           null,
           null,
+<<<<<<< HEAD
           null,
           null
         ]
       },
       "/home/mangos/data/www/CuteBank-_-/spec/models/users_history_record_spec.rb": {
+=======
+          null
+        ]
+      },
+      "/Users/andrew/app/CuteBank-_-/spec/models/users_history_record_spec.rb": {
+>>>>>>> upstream/main
         "lines": [
           1,
           null,
           1,
+<<<<<<< HEAD
           null,
+=======
+>>>>>>> upstream/main
           1,
           2,
           null,
           null
         ]
       },
+<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/app/models/users_history_record.rb": {
+=======
+      "/Users/andrew/app/CuteBank-_-/app/models/users_history_record.rb": {
+>>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -563,7 +696,11 @@
           null
         ]
       },
+<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/spec/requests/admin_request_spec.rb": {
+=======
+      "/Users/andrew/app/CuteBank-_-/spec/requests/admin_request_spec.rb": {
+>>>>>>> upstream/main
         "lines": [
           1,
           1,
@@ -586,7 +723,10 @@
           null,
           null,
           null,
+<<<<<<< HEAD
           null,
+=======
+>>>>>>> upstream/main
           1,
           1,
           2,
@@ -609,11 +749,18 @@
           2,
           null,
           null,
+<<<<<<< HEAD
           null,
           null
         ]
       },
       "/home/mangos/data/www/CuteBank-_-/app/controllers/admin_controller.rb": {
+=======
+          null
+        ]
+      },
+      "/Users/andrew/app/CuteBank-_-/app/controllers/admin_controller.rb": {
+>>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -640,7 +787,11 @@
           null
         ]
       },
+<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/app/controllers/application_controller.rb": {
+=======
+      "/Users/andrew/app/CuteBank-_-/app/controllers/application_controller.rb": {
+>>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -665,7 +816,11 @@
           null
         ]
       },
+<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/spec/requests/main_controller_request_spec.rb": {
+=======
+      "/Users/andrew/app/CuteBank-_-/spec/requests/main_controller_request_spec.rb": {
+>>>>>>> upstream/main
         "lines": [
           1,
           null,
@@ -692,7 +847,11 @@
           null
         ]
       },
+<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/app/controllers/main_controller.rb": {
+=======
+      "/Users/andrew/app/CuteBank-_-/app/controllers/main_controller.rb": {
+>>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -716,7 +875,11 @@
           null
         ]
       },
+<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/spec/requests/user_controller_request_spec.rb": {
+=======
+      "/Users/andrew/app/CuteBank-_-/spec/requests/user_controller_request_spec.rb": {
+>>>>>>> upstream/main
         "lines": [
           1,
           null,
@@ -755,7 +918,11 @@
           null
         ]
       },
+<<<<<<< HEAD
       "/home/mangos/data/www/CuteBank-_-/app/controllers/user_controller.rb": {
+=======
+      "/Users/andrew/app/CuteBank-_-/app/controllers/user_controller.rb": {
+>>>>>>> upstream/main
         "lines": [
           null,
           null,
@@ -834,6 +1001,10 @@
         ]
       }
     },
+<<<<<<< HEAD
     "timestamp": 1607347373
+=======
+    "timestamp": 1607449884
+>>>>>>> upstream/main
   }
 }
