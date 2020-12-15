@@ -7,7 +7,6 @@ RSpec.describe User, type: :model do
     @u = User.new(email: 'user@gmail.com', password: '123456')
 
     expect(@u.valid?).to eq(true)
-
   end
 
   after(:all) do
@@ -75,17 +74,16 @@ RSpec.describe User, type: :model do
   end
 
   context 'add_error' do
-    it 'is expected to fail if input is not nil' do 
+    it 'is expected to fail if input is not nil' do
       @u = create :user
 
       expect(User.add_errors('sdfsd', @u)).to eq(false)
     end
 
-    it 'is expected to success if input is nil' do 
+    it 'is expected to success if input is nil' do
       @u = create :user
 
       expect(User.add_errors(nil, @u)).to eq(true)
     end
-
   end
 end

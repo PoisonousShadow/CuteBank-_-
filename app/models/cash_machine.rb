@@ -7,7 +7,7 @@ class CashMachine < ApplicationRecord
     @machine = CashMachine.find(1)
     new_amount = (@machine.cash_amount + amount)
 
-    if new_amount == Float::INFINITY || new_amount == Float::MAX
+    if [Float::INFINITY, Float::MAX].include?(new_amount)
       false
 
     else

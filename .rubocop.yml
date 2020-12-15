@@ -1,0 +1,35 @@
+AllCops:
+  Exclude:
+    - 'config/initializers/devise.rb'
+    - 'db/**/*'
+    - 'node_modules/**/*'
+Style/Documentation:
+  Enabled: false
+Layout/LineLength:
+  Enabled: false
+Metrics/BlockLength:
+  Enabled: false
+Style/GlobalVars:
+  Enabled: false
+Style/ClassAndModuleChildren:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Metrics/MethodLength:
+  Enabled: false
+Metrics/PerceivedComplexity:
+  Enabled: false
+Metrics/CyclomaticComplexity:
+  Enabled: false
+Style/GuardClause:
+  Enabled: false
+Lint/FloatComparison:
+  Enabled: false
+Lint/NonDeterministicRequireOrder:
+  Enabled: false
+Style/EmptyElse:
+  Enabled: false
+Lint/UselessMethodDefinition:
+  Enabled: false
+Lint/FloatOutOfRange:
+  Enabled: false

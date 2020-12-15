@@ -63,7 +63,6 @@ RSpec.describe CashMachine, type: :model do
 
       expect(CashMachine.cash_available?(-20.0)).to eq(true)
     end
-
   end
 
   context 'update_cash' do
