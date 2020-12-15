@@ -17721,3 +17721,235 @@ Processing by UserController#index as HTML
 Completed 200 OK in 28ms (Views: 18.7ms | ActiveRecord: 1.8ms | Allocations: 8387)
 
 
+Started GET "/" for ::1 at 2020-12-15 21:50:50 +0300
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 340)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 125ms (Views: 114.0ms | ActiveRecord: 0.0ms | Allocations: 23063)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-12-15 21:50:53 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.5ms | Allocations: 154)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 5.3ms | Allocations: 1490)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 58ms (Views: 16.6ms | ActiveRecord: 21.0ms | Allocations: 12797)
+
+
+Started POST "/users" for ::1 at 2020-12-15 21:51:00 +0300
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"7gG1Qd8mnnNqfLCKxidn4Ckh5O10JEGWThaFW4gnxZnvJXz1Q1pisQkxx5061QKdRCvMiC0Ps5MOEmcxCxtg5Q==", "user"=>{"email"=>"antaresloe@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Register"}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (9.9ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "antaresloe@gmail.com"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.5ms | Allocations: 144)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 599)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 642ms (Views: 12.2ms | ActiveRecord: 10.7ms | Allocations: 210439)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-12-15 21:51:02 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 706)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 6057)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-12-15 21:51:06 +0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"0GJgGZADunwyknkgToCSRIkGS6ps1g5LG/A96/A6I/K1ne0c9lcg7pLAH4AFhej6whjwcNiWjqnnr7HOe90qkA==", "user"=>{"email"=>"antaresloe@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "antaresloe@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/user
+Completed 302 Found in 319ms (ActiveRecord: 1.6ms | Allocations: 3671)
+
+
+Started GET "/user" for ::1 at 2020-12-15 21:51:07 +0300
+Processing by UserController#index as HTML
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/user_controller.rb:8:in `index'
+  Rendering user/index.html.erb within layouts/application
+  [1m[36mUsersHistoryRecord Load (10.1ms)[0m  [1m[34mSELECT "users_history_records".* FROM "users_history_records" WHERE "users_history_records"."user_id" = $1[0m  [["user_id", 2]]
+  ↳ app/views/user/index.html.erb:56:in `!='
+  [1m[35m (5.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "users_history_records" WHERE "users_history_records"."user_id" = $1[0m  [["user_id", 2]]
+  ↳ app/views/user/index.html.erb:58
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users_history_records" WHERE "users_history_records"."user_id" = $1[0m  [["user_id", 2]]
+  ↳ app/views/user/index.html.erb:58
+  Rendered user/index.html.erb within layouts/application (Duration: 57.8ms | Allocations: 7750)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 97ms (Views: 41.3ms | ActiveRecord: 35.0ms | Allocations: 17979)
+
+
+Started POST "/user" for ::1 at 2020-12-15 21:51:10 +0300
+Processing by UserController#create as HTML
+  Parameters: {"authenticity_token"=>"9qBELZ+YZBTAku5Ln+spJw+MruvZRQhOSHAk3L8Cg3cBZuj5dvn0U58aA1nTs9PwYzTlgKFDe9579TfABH/yEQ==", "user"=>{"current_balance"=>"dsfds"}, "commit"=>"Withdraw"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/user_controller.rb:14:in `create'
+  Rendering user/index.html.erb within layouts/application
+  [1m[36mUsersHistoryRecord Load (0.5ms)[0m  [1m[34mSELECT "users_history_records".* FROM "users_history_records" WHERE "users_history_records"."user_id" = $1[0m  [["user_id", 2]]
+  ↳ app/views/user/index.html.erb:56:in `!='
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users_history_records" WHERE "users_history_records"."user_id" = $1[0m  [["user_id", 2]]
+  ↳ app/views/user/index.html.erb:58
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users_history_records" WHERE "users_history_records"."user_id" = $1[0m  [["user_id", 2]]
+  ↳ app/views/user/index.html.erb:58
+  Rendered user/index.html.erb within layouts/application (Duration: 10.8ms | Allocations: 2429)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 21.3ms | ActiveRecord: 4.0ms | Allocations: 9112)
+
+
+Started POST "/user" for ::1 at 2020-12-15 21:51:14 +0300
+Processing by UserController#create as HTML
+  Parameters: {"authenticity_token"=>"KBvUUrPaXbrz0PkPxt5UK5lMboTasvLTDPVAkkPLvi3f3XiGWrvN/axYFB2Khq789fQl76K0gUM/cFOO+LbPSw==", "user"=>{"current_balance"=>"asdfs"}, "commit"=>"Withdraw"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/user_controller.rb:14:in `create'
+  Rendering user/index.html.erb within layouts/application
+  [1m[36mUsersHistoryRecord Load (0.6ms)[0m  [1m[34mSELECT "users_history_records".* FROM "users_history_records" WHERE "users_history_records"."user_id" = $1[0m  [["user_id", 2]]
+  ↳ app/views/user/index.html.erb:56:in `!='
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users_history_records" WHERE "users_history_records"."user_id" = $1[0m  [["user_id", 2]]
+  ↳ app/views/user/index.html.erb:58
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users_history_records" WHERE "users_history_records"."user_id" = $1[0m  [["user_id", 2]]
+  ↳ app/views/user/index.html.erb:58
+  Rendered user/index.html.erb within layouts/application (Duration: 11.7ms | Allocations: 2412)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 18.9ms | ActiveRecord: 2.7ms | Allocations: 9151)
+
+
+Started POST "/user" for ::1 at 2020-12-15 21:51:18 +0300
+Processing by UserController#create as HTML
+  Parameters: {"authenticity_token"=>"WoZdCuIUyaIT7RW5tkSVJIkC1HhwhdPNKoCrJJsskwytQPHeC3VZ5Uxl+Kv6HG/z5bqfEwiDoF0ZBbg4IFHiag==", "user"=>{"current_balance"=>"5000"}, "commit"=>"Withdraw"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/user_controller.rb:14:in `create'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/user_controller.rb:48:in `operate'
+  [1m[36mCashMachine Load (24.3ms)[0m  [1m[34mSELECT "cash_machines".* FROM "cash_machines" WHERE "cash_machines"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/models/cash_machine.rb:24:in `cash_available?'
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/cash_machine.rb:33:in `cash_available?'
+  [1m[36mCashMachine Update (2.0ms)[0m  [1m[33mUPDATE "cash_machines" SET "cash_amount" = $1, "updated_at" = $2 WHERE "cash_machines"."id" = $3[0m  [["cash_amount", 135000.0], ["updated_at", "2020-12-15 18:51:18.790161"], ["id", 1]]
+  ↳ app/models/cash_machine.rb:33:in `cash_available?'
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/cash_machine.rb:33:in `cash_available?'
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:36:in `withdraw'
+  [1m[36mUser Update (0.9ms)[0m  [1m[33mUPDATE "users" SET "current_balance" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["current_balance", 35000.0], ["updated_at", "2020-12-15 18:51:18.799023"], ["id", 2]]
+  ↳ app/models/user.rb:36:in `withdraw'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:36:in `withdraw'
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/user_controller.rb:53:in `operate'
+  [1m[36mUsersHistoryRecord Create (2.6ms)[0m  [1m[32mINSERT INTO "users_history_records" ("operation_type", "amount", "balance_after", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["operation_type", "Withdraw"], ["amount", 5000.0], ["balance_after", 35000.0], ["created_at", "2020-12-15 18:51:18.805621"], ["updated_at", "2020-12-15 18:51:18.805621"], ["user_id", 2]]
+  ↳ app/controllers/user_controller.rb:53:in `operate'
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/user_controller.rb:53:in `operate'
+Redirected to http://localhost:3000/user
+Completed 302 Found in 80ms (ActiveRecord: 37.3ms | Allocations: 15898)
+
+
+Started GET "/user" for ::1 at 2020-12-15 21:51:18 +0300
+Processing by UserController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/user_controller.rb:8:in `index'
+  Rendering user/index.html.erb within layouts/application
+  [1m[36mUsersHistoryRecord Load (0.6ms)[0m  [1m[34mSELECT "users_history_records".* FROM "users_history_records" WHERE "users_history_records"."user_id" = $1[0m  [["user_id", 2]]
+  ↳ app/views/user/index.html.erb:56:in `!='
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "users_history_records" WHERE "users_history_records"."user_id" = $1[0m  [["user_id", 2]]
+  ↳ app/views/user/index.html.erb:58
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users_history_records" WHERE "users_history_records"."user_id" = $1[0m  [["user_id", 2]]
+  ↳ app/views/user/index.html.erb:58
+  Rendered user/index.html.erb within layouts/application (Duration: 19.5ms | Allocations: 2343)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 26.3ms | ActiveRecord: 2.2ms | Allocations: 8848)
+
+
+Started POST "/user" for ::1 at 2020-12-15 21:51:24 +0300
+Processing by UserController#create as HTML
+  Parameters: {"authenticity_token"=>"kslsZ0A3EdK4Die7rdGSeHz+lxSy+Xpswpxauw28hRllD8CzqVaBleeGyqnhiWivEEbcf8r/CfzxGUmntsH0fw==", "user"=>{"current_balance"=>"1000"}, "commit"=>"Deposit"}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/user_controller.rb:14:in `create'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/user_controller.rb:48:in `operate'
+  [1m[36mCashMachine Load (0.6ms)[0m  [1m[34mSELECT "cash_machines".* FROM "cash_machines" WHERE "cash_machines"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/models/cash_machine.rb:7:in `add_cash'
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/cash_machine.rb:15:in `add_cash'
+  [1m[36mCashMachine Update (0.8ms)[0m  [1m[33mUPDATE "cash_machines" SET "cash_amount" = $1, "updated_at" = $2 WHERE "cash_machines"."id" = $3[0m  [["cash_amount", 136000.0], ["updated_at", "2020-12-15 18:51:24.692185"], ["id", 1]]
+  ↳ app/models/cash_machine.rb:15:in `add_cash'
+  [1m[35m (2.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/cash_machine.rb:15:in `add_cash'
+  [1m[35m (1.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:55:in `deposit'
+  [1m[36mUser Update (0.8ms)[0m  [1m[33mUPDATE "users" SET "current_balance" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["current_balance", 36000.0], ["updated_at", "2020-12-15 18:51:24.705272"], ["id", 2]]
+  ↳ app/models/user.rb:55:in `deposit'
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:55:in `deposit'
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/user_controller.rb:53:in `operate'
+  [1m[36mUsersHistoryRecord Create (1.2ms)[0m  [1m[32mINSERT INTO "users_history_records" ("operation_type", "amount", "balance_after", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["operation_type", "Deposit"], ["amount", 1000.0], ["balance_after", 36000.0], ["created_at", "2020-12-15 18:51:24.714388"], ["updated_at", "2020-12-15 18:51:24.714388"], ["user_id", 2]]
+  ↳ app/controllers/user_controller.rb:53:in `operate'
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/user_controller.rb:53:in `operate'
+Redirected to http://localhost:3000/user
+Completed 302 Found in 43ms (ActiveRecord: 11.0ms | Allocations: 10826)
+
+
+Started GET "/user" for ::1 at 2020-12-15 21:51:24 +0300
+Processing by UserController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/user_controller.rb:8:in `index'
+  Rendering user/index.html.erb within layouts/application
+  [1m[36mUsersHistoryRecord Load (0.5ms)[0m  [1m[34mSELECT "users_history_records".* FROM "users_history_records" WHERE "users_history_records"."user_id" = $1[0m  [["user_id", 2]]
+  ↳ app/views/user/index.html.erb:56:in `!='
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users_history_records" WHERE "users_history_records"."user_id" = $1[0m  [["user_id", 2]]
+  ↳ app/views/user/index.html.erb:58
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users_history_records" WHERE "users_history_records"."user_id" = $1[0m  [["user_id", 2]]
+  ↳ app/views/user/index.html.erb:58
+  Rendered user/index.html.erb within layouts/application (Duration: 7.1ms | Allocations: 2392)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 16.3ms | ActiveRecord: 1.9ms | Allocations: 8862)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2020-12-15 21:51:28 +0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"aWTanDGh/Mrjv+DhTM2ibthUtMR0acGyzDj3fZafvoCeonZI2MBsjbw3DfMAlVi5tOz/rwxvsiL/veRhLeLP5g=="}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Redirected to http://localhost:3000/main
+Completed 302 Found in 8ms (ActiveRecord: 0.6ms | Allocations: 2653)
+
+
+Started GET "/main" for ::1 at 2020-12-15 21:51:28 +0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 62)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 4493)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-12-15 21:51:30 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 469)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 5050)
+
+
+Started GET "/" for ::1 at 2020-12-15 21:51:31 +0300
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 56)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 4496)
+
+
