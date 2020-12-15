@@ -13,9 +13,14 @@ class AdminController < ApplicationController
 
     unless params[:commit].nil?
       hash = params.require(:admin).permit(:cash_amount)
-      cash_amount = hash[:cash_amount].to_f
+      cash_amount = check_input(hash[:cash_amount])
+      if cash_amount.nil?
+        cash_amount = hash[:cash_amount].to_f
 
-      CashMachine.update_cash(cash_amount, @cash)
+        CashMachine.update_cash(cash_amount, @cash)
+      else
+        @cash.errors.add(:input, cash_amount)
+      end
 
       render 'index'
     end
