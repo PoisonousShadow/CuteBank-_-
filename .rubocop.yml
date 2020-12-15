@@ -27,3 +27,9 @@ Lint/FloatComparison:
   Enabled: false
 Lint/NonDeterministicRequireOrder:
   Enabled: false
+Style/EmptyElse:
+  Enabled: false
+Lint/UselessMethodDefinition:
+  Enabled: false
+Lint/FloatOutOfRange:
+  Enabled: false
