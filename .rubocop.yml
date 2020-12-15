@@ -5,6 +5,8 @@ AllCops:
     - 'node_modules/**/*'
 Style/Documentation:
   Enabled: false
+Style/EmptyElse:
+  Enabled: false
 Layout/LineLength:
   Enabled: false
 Metrics/BlockLength:
@@ -26,4 +28,18 @@ Style/GuardClause:
 Lint/FloatComparison:
   Enabled: false
 Lint/NonDeterministicRequireOrder:
+  Enabled: false
+Lint/UselessMethodDefinition:
+  Enabled: false
+Layout/TrailingWhitespace:
+  Enabled: false
+Layout/BlockAlignment:
+  Enabled: false
+Layout/IndentationConsistency:
+  Enabled: false
+Style/MultipleComparison:
+  Enabled: false
+Layout/EmptyLinesAroundBlockBody:
+  Enabled: false
+Lint/FloatOutOfRange:
   Enabled: false
